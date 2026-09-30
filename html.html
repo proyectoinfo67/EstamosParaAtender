@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estamos para atender | Inclusión Digital</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">
+            <span>Estamos</span> para atender
+        </div>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#actividades">Actividades</a>
+            <a href="#compromiso">Compromiso</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+        <div class="hero-text">
+            <span class="tag">INCLUSIÓN DIGITAL</span>
+
+            <h1>
+                La tecnología
+                <span>también es para todos.</span>
+            </h1>
+
+            <p>
+                Acompañamos a los adultos mayores para que puedan
+                aprender, conectarse y disfrutar de la tecnología
+                con confianza.
+            </p>
+
+            <a href="#actividades" class="btn">
+                Ver actividades
+            </a>
+        </div>
+
+        <div class="hero-card">
+            <div class="icon"></div>
+            <h3>Aprender sin miedo</h3>
+            <p>
+                Paso a paso, con paciencia y acompañamiento.
+            </p>
+        </div>
+    </section>
+
+    <section id="nosotros" class="section">
+        <div class="section-title">
+            <span class="tag">SOBRE NOSOTROS</span>
+            <h2>¿Quiénes somos?</h2>
+        </div>
+
+        <div class="about">
+            <div class="about-text">
+                <h3>Estamos para atender</h3>
+
+                <p>
+                    Somos una empresa que busca ayudar
+                    y acercar la tecnología a los adultos
+                    mayores.
+                </p>
+
+                <p>
+                    Enseñamos de manera simple, clara y acompañada,
+                    respetando los tiempos de cada persona.
+                </p>
+            </div>
+
+            <div class="about-number">
+                <strong>01</strong>
+                <span>Aprender</span>
+            </div>
+
+            <div class="about-number">
+                <strong>02</strong>
+                <span>Acompañar</span>
+            </div>
+
+            <div class="about-number">
+                <strong>03</strong>
+                <span>Incluir</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="problem">
+        <div class="section-title">
+            <span class="tag light">EL DESAFÍO</span>
+
+            <h2>
+                Cuando la tecnología
+                parece complicada.
+            </h2>
+        </div>
+
+        <div class="problems-grid">
+
+            <div class="problem-card">
+                <span>01</span>
+                <h3>Miedo a equivocarse</h3>
+                <p>
+                    El miedo a tocar algo incorrecto puede dificultar
+                    el aprendizaje.
+                </p>
+            </div>
+
+            <div class="problem-card">
+                <span>02</span>
+                <h3>Falta de acompañamiento</h3>
+                <p>
+                    No siempre hay alguien para explicarnos
+                    como utilizar una herramienta.
+                </p>
+            </div>
+
+            <div class="problem-card">
+                <span>03</span>
+                <h3>Brecha digital</h3>
+                <p>
+                    No todas las personas tienen las mismas
+                    oportunidades para acceder a la tecnología.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="objective">
+        <div>
+            <span class="tag">NUESTRO OBJETIVO</span>
+
+            <h2>
+                Acompañar para
+                <span>generar confianza.</span>
+            </h2>
+        </div>
+
+        <p>
+            Queremos que cada adulto mayor pueda usar
+            herramientas digitales de forma autónoma,
+            segura y sencilla.
+        </p>
+    </section>
+
+    <section id="actividades" class="section activities">
+
+        <div class="section-title">
+            <span class="tag">APRENDER HACIENDO</span>
+            <h2>Actividades</h2>
+
+            <p>
+                Propuestas simples para aprender tecnología
+                de manera práctica.
+            </p>
+        </div>
+
+        <div class="activities-grid">
+
+            <article class="activity-card">
+                <div class="activity-icon"></div>
+                <h3>Mi celular</h3>
+                <p>
+                    Aprendemos a configurar y utilizar las funciones
+                    básicas del teléfono.
+                </p>
+                <button onclick="mostrarActividad('celular')">
+                    <a href="https://www.educaplay.com/learning-resources/18455512-partes_de_un_telefono_movil.html">Actividad</a>
+                </button>
+            </article>
+
+            <article class="activity-card">
+                <div class="activity-icon"></div>
+                <h3>WhatsApp</h3>
+                <p>
+                    Enviamos mensajes, audios, fotos y hacemos
+                    videollamadas.
+                </p>
+                <button onclick="mostrarActividad('whatsapp')">
+                    <a href="https://web.whatsapp.com/">Actividad</a>
+                </button>
+            </article>
+
+            <article class="activity-card">
+                <div class="activity-icon"></div>
+                <h3>Internet</h3>
+                <p>
+                    Aprendemos a buscar información confiable
+                    en Internet.
+                </p>
+                <button onclick="mostrarActividad('internet')">
+                    <a href="https://www.google.com/?hl=es">Actividad</a>
+                </button>
+            </article>
+
+            <article class="activity-card">
+                <div class="activity-icon"></div>
+                <h3>Seguridad</h3>
+                <p>
+                    Identificamos mensajes sospechosos y protegemos
+                    nuestros datos.
+                </p>
+                <button onclick="mostrarActividad('seguridad')">
+                   <a href="https://www.educaplay.com/game/28673540-como_reconocer_y_evitar_estafas_online.html">Actividad</a>
+                </button>
+            </article>
+
+        </div>
+
+        <div id="actividad-box" class="activity-box">
+
+            <span class="tag">DESAFÍO</span>
+
+            <h3 id="actividad-titulo">
+                Elegí una actividad
+            </h3>
+
+            <p id="actividad-texto">
+                Hacé clic en cualquiera de las actividades
+                para comenzar.
+            </p>
+
+            <div id="opciones"></div>
+
+            <p id="resultado"></p>
+
+        </div>
+
+    </section>
+
+    <section class="benefits">
+
+        <div class="section-title">
+            <span class="tag light">¿QUÉ BUSCAMOS?</span>
+            <h2>Más que aprender tecnología.</h2>
+        </div>
+
+        <div class="benefits-grid">
+
+            <div>
+                <span class="benefit-icon"></span>
+                <h3>Autonomía</h3>
+                <p>
+                    Poder realizar tareas digitales por sí mismos.
+                </p>
+            </div>
+
+            <div>
+                <span class="benefit-icon"></span>
+                <h3>Confianza</h3>
+                <p>
+                    Aprender sin miedo a equivocarse.
+                </p>
+            </div>
+
+            <div>
+                <span class="benefit-icon"></span>
+                <h3>Conexión</h3>
+                <p>
+                    Mantenerse cerca de familiares y amigos.
+                </p>
+            </div>
+
+            <div>
+                <span class="benefit-icon"></span>
+                <h3>Seguridad</h3>
+                <p>
+                    Utilizar Internet cuidando la información personal.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="compromiso" class="commitment">
+
+        <div class="commitment-content">
+
+            <span class="tag">NUESTRO COMPROMISO</span>
+
+            <h2>
+                La tecnología tiene que
+                <span>acercarnos,</span>
+                no dejarnos afuera.
+            </h2>
+
+            <p>
+                Estamos para atender, acompañar y enseñar.
+            </p>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <div class="footer-logo">
+            <strong>Estamos</strong> para atender
+        </div>
+
+        <p>
+            Inclusión digital para adultos mayores.
+        </p>
+
+        <span>© 2026 Estamos para atender</span>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
